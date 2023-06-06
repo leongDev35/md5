@@ -12,7 +12,7 @@ export function Home() {
     return (
         <>
             <Header/><br/>
-            <Formik
+            {/* <Formik
                 initialValues={{
                     search: '',
                 }}>
@@ -32,10 +32,10 @@ export function Home() {
                         </Link>
                     </Form>
                 )}
-            </Formik>
+            </Formik> */}
             <br/>
             <Outlet/>
-            <Footer/>
+            {/* <Footer/> */}
         </>
     )
 }
